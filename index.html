@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acquisition Archetype Assessment | Discover Your M&A Style</title>
+    <meta name="description" content="Discover whether you're an Operator, Flipper, or Exit Partner with our comprehensive acquisition archetype assessment.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Landing Screen -->
+    <div id="landing-screen" class="screen active">
+        <div class="container">
+            <div class="hero-content">
+                <div class="logo">
+                    <h1>⚡ ACQUISITION ARCHETYPE</h1>
+                    <p class="tagline">NEURAL ASSESSMENT</p>
+                </div>
+                
+                <div class="hero-text">
+                    <h2>DECODE YOUR M&A MATRIX</h2>
+                    <p class="subtitle">Are you an <strong>OPERATOR</strong>, <strong>FLIPPER</strong>, or <strong>EXIT PARTNER</strong>?</p>
+                    <p class="description">
+                        Execute our 8-node neural assessment to decrypt your acquisition archetype and unlock 
+                        classified strategies for your corporate infiltration protocols.
+                    </p>
+                </div>
+                
+                <div class="cta-section">
+                    <button id="start-assessment" class="btn-primary">
+                        INITIATE SCAN
+                        <span class="btn-icon">▶</span>
+                    </button>
+                    <p class="time-estimate">⚡ RUNTIME: 2-3 MINUTES</p>
+                </div>
+                
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon">⚡</span>
+                        <span>Neural Analysis</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🔮</span>
+                        <span>Tactical Intel</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🎯</span>
+                        <span>Strategic Matrix</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Assessment Screen -->
+    <div id="assessment-screen" class="screen">
+        <div class="container">
+            <div class="assessment-header">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <span id="progress-text" class="progress-text">Question 1 of 8</span>
+                </div>
+            </div>
+            
+            <div class="question-container">
+                <div id="question-content" class="question-content">
+                    <!-- Questions will be dynamically inserted here -->
+                </div>
+                
+                <div class="navigation-buttons">
+                    <button id="prev-btn" class="btn-secondary" style="display: none;">
+                        ◀ BACK
+                    </button>
+                    <button id="next-btn" class="btn-primary" disabled>
+                        NEXT ▶
+                    </button>
+                    <button id="finish-btn" class="btn-primary" style="display: none;">
+                        DECODE RESULTS ▶
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <div class="results-content">
+                <div class="results-header">
+                    <div id="archetype-icon" class="archetype-icon"></div>
+                    <h2 id="archetype-title" class="archetype-title"></h2>
+                    <p id="archetype-subtitle" class="archetype-subtitle"></p>
+                </div>
+                
+                <div id="archetype-description" class="archetype-description">
+                    <!-- Dynamic content will be inserted here -->
+                </div>
+                
+                <div class="score-breakdown">
+                    <h3>Your Assessment Breakdown</h3>
+                    <div id="score-details" class="score-details">
+                        <!-- Score breakdown will be inserted here -->
+                    </div>
+                </div>
+                
+                <div class="email-capture">
+                    <h3>DOWNLOAD TACTICAL PLAYBOOK</h3>
+                    <p>Input credentials to receive classified strategy protocols for your archetype.</p>
+                    <form id="email-form" class="email-form">
+                        <input type="text" id="user-name" placeholder="OPERATIVE NAME" required>
+                        <input type="email" id="user-email" placeholder="SECURE CHANNEL" required>
+                        <button type="submit" class="btn-primary">
+                            TRANSMIT DATA
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="cta-section">
+                    <button id="retake-assessment" class="btn-secondary">
+                        RESTART SCAN
+                    </button>
+                    <button id="share-results" class="btn-outline">
+                        BROADCAST DATA
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thank You Screen -->
+    <div id="thankyou-screen" class="screen">
+        <div class="container">
+            <div class="thankyou-content">
+                <div class="success-icon">⚡</div>
+                <h2>TRANSMISSION COMPLETE!</h2>
+                <p>Your classified tactical playbook has been transmitted to your secure channel.</p>
+                <p>Check your data streams (and quarantine folder) for your detailed strategy protocols.</p>
+                
+                <div class="next-steps">
+                    <h3>MISSION OBJECTIVES</h3>
+                    <div class="next-step">
+                        <span class="step-number">1</span>
+                        <span>Analyze your tactical playbook</span>
+                    </div>
+                    <div class="next-step">
+                        <span class="step-number">2</span>
+                        <span>Join the AI Biz Hour Neural Network</span>
+                    </div>
+                    <div class="next-step">
+                        <span class="step-number">3</span>
+                        <span>Execute acquisition protocols</span>
+                    </div>
+                </div>
+                
+                <button id="back-to-start" class="btn-primary">
+                    REINITIALIZE SCAN
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
